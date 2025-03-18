@@ -157,10 +157,12 @@ mvn test
 [!TIP]
 MacOS por defecto tiene integrado un WEBDRIVER (Safari/Chrome) en su sistema, por lo que NO tienes que instanciar su ruta.
 
+
 ## Notas adicionales
 
 - Asegúrate de tener una conexión a Internet para descargar las dependencias
 - Se recomienda usar la última versión estable de las dependencias
+
 
 ## Recursos útiles
 
