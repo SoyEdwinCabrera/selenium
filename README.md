@@ -109,7 +109,7 @@ Añade las siguientes dependencias al archivo `pom.xml`:
 
 Asegurate de agregar el siguiente plugin agragando la informacion correspondiente a tu proyecto y clase main.
 
-```
+```xml
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
@@ -139,6 +139,11 @@ selenium-test/
 
 ## Compilación y ejecución
 
+Para ejecutar el proyecto(clase main):
+```bash
+mvn exec:java
+```
+
 Para compilar el proyecto:
 ```bash
 mvn clean compile
@@ -149,13 +154,12 @@ Para ejecutar las pruebas:
 mvn test
 ```
 
-.[!TIP].
+[!TIP]
 MacOS por defecto tiene integrado un WEBDRIVER (Safari/Chrome) en su sistema, por lo que NO tienes que instanciar su ruta.
 
 ## Notas adicionales
 
 - Asegúrate de tener una conexión a Internet para descargar las dependencias
-- El WebDriverManager se encargará de gestionar los drivers del navegador automáticamente
 - Se recomienda usar la última versión estable de las dependencias
 
 ## Recursos útiles
