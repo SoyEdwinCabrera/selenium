@@ -107,7 +107,7 @@ Añade las siguientes dependencias al archivo `pom.xml`:
 </build>
 ```
 
-Asegurate de agregar el siguiente plugin agragando la informacion correspondiente a tu proyecto y clase main. Después de "</pluginManagement>"
+Asegurate de agregar el siguiente plugin agragando la informacion correspondiente a tu proyecto y clase main. Después de "pluginManagement"
 
 ```xml
 <plugins>
