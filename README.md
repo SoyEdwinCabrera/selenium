@@ -107,17 +107,19 @@ Añade las siguientes dependencias al archivo `pom.xml`:
 </build>
 ```
 
-Asegurate de agregar el siguiente plugin agragando la informacion correspondiente a tu proyecto y clase main.
+Asegurate de agregar el siguiente plugin agragando la informacion correspondiente a tu proyecto y clase main. Después de </pluginManagement>
 
 ```xml
-<plugin>
-  <groupId>org.codehaus.mojo</groupId>
-  <artifactId>exec-maven-plugin</artifactId>
-  <version>3.5.0</version>
-  <configuration>
-      <mainClass>org.tu-groupId.tu-main-class</mainClass>
-  </configuration>
-</plugin>
+<plugins>
+    <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.5.0</version>
+        <configuration>
+            <mainClass>org.tu-groupId.tu-main-class</mainClass>
+        </configuration>
+    </plugin>
+</plugins>
 ```
 
 ## Estructura del proyecto
